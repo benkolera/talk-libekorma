@@ -13,5 +13,5 @@
    ]
   :plugins [[lein-ring "0.8.11"]]
   :ring {:handler libekorma.app/app}
-  :aliases {"migrate"  ["run" "-m" "libekorma.db/migrate"]}
+  :aliases {"migrate"  ["run" "-m" "libekorma.app/migrate"]}
   )
